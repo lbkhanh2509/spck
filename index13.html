@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index1.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <button class="btnlogin" id="login2">Login</button>
+        </ul>  
+    </div>
+</nav>
+<section id="home">
+    <div class="mainhome">
+        <h1 class="headings"> Gíao dục tâm lý</h1>
+        <button class="btn">
+            Tìm hiểu thêm
+        </button>
+    </div>
+</section>
+<div class="wrapper">
+    <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+    <div id="login1" class="form-box login">
+        <h2>Login</h2>
+    
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required >
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required >
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#"> Forgot password?</a>
+            </div>
+            <button type="submit" id="btn2">Login</button>
+            <div class="login-register">
+                <p>Don't have an account?<a class="register-link" onclick="showForm(2)" >Register </a></p>
+            </div>
+        
+    </div>
+    <div id="register1" class="form-box register">
+        <h2>Registeration</h2>
+   
+            <div class="input-box">
+                <span class="icon"><ion-icon name="people"></ion-icon>
+                </span>
+                <input type="name" required >
+                <label>Name</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="call"></ion-icon></span>
+                <input type="phone number" required >
+                <label>Phone number</label>
+            </div>
+            <div class="input-box" >
+                <span class="icon"><ion-icon name="create-outline"></ion-icon></span>
+                <input type="create password"  required id="createpassword">
+                <label>Create password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">I argee to the terms and condition</label>
+
+            </div>
+            <button type="submit" id="btn1">register</button>
+            <div class="login-register">
+                <p>Already have account?<a class="login-link" onclick="showForm(1)">Login</a></p>
+            </div>
+    </div>
+</div>
+<div id="body-home">
+    <h2 style="text-align: center; font-weight: 400;">Tại sao giáo dục tâm lý trẻ em lại quan trọng?</h2>
+    <div class="line" style="margin: 0 auto;"></div>
+    <p style="text-align: justify; word-spacing: 5px; margin-left: 300px; margin-right: 400px;">Tâm lý học giúp chúng ta
+        hiểu kỹ hơn các mục tiêu giáo dục bằng cách xác định được chúng nhằm giúp chúng ta thấy cái gì làm được (vd: dạy
+        học phát triển nhận thức của đứa trẻ…) và cái gì không làm được (vd:biến đứa trẻ thành một thần đồng…).
+        Tâm lý học là một khoa học cung cấp những tri thức khoa học về tâm lý học giúp lý giải được những thay đổi trong
+        bản chất người, trí năng, tính nết, hành vi của con người.</p>
+    <br>
+    <p style="text-align: justify; word-spacing: 5px; margin-left: 300px; margin-right: 400px;">Tâm lý học đóng góp vào
+        việc am hiểu các phương pháp dạy học theo ba cách: <br>
+        +Thứ nhất, các phương pháp có thể được trực tiếp suy ra từ các quy luật về bản chất con người. <br> +
+        Thứ hai, phương pháp dạy học xuất phát từ kinh nghiệm thực tế và tâm lý học sẽ giúp hiểu vì sao phương pháp này
+        lại hiệu quả hơn phương pháp kia bằng cách giải thích mang tính khoa học. <br>
+        +Thứ ba, tâm lý học từ khi trở thành một khoa học độc lập đánh dấu bằng sự ra đời của phòng thực nghiệm Wunt
+        (1879) với phương pháp thực nghiệm và về sau phát triển thành các phương pháp đo lường khoa học thì nó có thể
+        gợi ra những phương tiện đo nghiệm,
+        xác minh hoặc trau chuốt các loại phương pháp dạy học.</p>
+    <div class="box">
+        <div class="card" id="div1">
+            <i class="fas fa-bars"></i>
+            <h5>1. Giai đoạn trẻ từ 0-3 tuổi</h5>
+            <div class="pra">
+                <p>Ngay từ khi sinh ra trẻ đã có sự thay đổi môi trường từ trong bào thai ra bên ngoài với nhiều biến
+                    đổi như ánh sáng, nhiệt độ, âm thanh... </p>
+                <p style="text-align: center;">
+                    <a class="button" >read more<button onclick=""></button></a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card" id="div2">
+            <i class="fas fa-bars"></i>
+            <h5>2. Giai đoạn trẻ từ 3-6 tuổi</h5>
+            <div class="pra">
+                <p>Giai đoạn 3 - 6 tuổi con biết nhiều thứ hơn và bắt đầu đặt những câu hỏi tại sao cho cha mẹ hay người
+                    lớn.
+                    Lúc này vốn ngôn ngữ, khả năng tư duy, sự nhạy bén của trẻ cũng phát triển vượt bậc... </p>
+                <p style="text-align: center;">
+                    <a class="button" href="./index1.html" >read more</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-bars"></i>
+            <h5>3. Giai đoạn trẻ từ 6-11 tuổi</h5>
+            <div class="pra">
+                <p>Từ 6 trên 11 tuổi là lúc con bước vào quá trình học tập nhiều hơn nên đây cũng được coi là các giai
+                    đoạn phát triển tâm lý theo lứa tuổi mà cha mẹ cần dành nhiều thời gian để quan tâm con... </p>
+                <p style="text-align: center;">
+                    <a class="button">read more</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-bars"></i>
+            <h5>4. Giai đoạn trẻ từ 11-16 tuổi</h5>
+            <div class="pra">
+                <p>Đây là giai đoạn trẻ dậy thì vì thế trong vấn đề tâm sinh lý con có rất nhiều những thay đổi.
+                    Con thường nhạy cảm hơn, biết rung động trước người khác giới và bắt đầu có những điều thầm kín
+                    không muốn chia sẻ cùng ai, kể cả cha mẹ....</p>
+                <p style="text-align: center;">
+                    <a class="button" >read more</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="home12">
+        <h2 style="text-align: center; font-weight: 400;"> Nguyên nhân khiến trầm cảm gia tăng</h2>
+        <div class="line" style="margin: 0 auto;"></div>
+        <br>
+        <p style="text-align: justify; word-spacing: 5px; margin-left: 300px; margin-right: 400px;">
+            Một trong những nguyên nhân thường thấy ở người trẻ bị trầm cảm là do những áp lực trong việc học hành và
+            hoàn cảnh gia đình.
+        </p>
+        <br>
+        <p style="text-align: justify; word-spacing: 5px; margin-left: 300px; margin-right: 400px;">Sức ép của cha mẹ
+            đối với con cái trong việc học hành, thi cử làm các em dễ rơi vào trạng thái căng thẳng với tất cả mọi
+            chuyện, đôi lúc không kiểm soát được suy nghĩ của mình.
+        </p>
+        <br>
+        <p style="text-align: justify; word-spacing: 5px; margin-left: 300px; margin-right: 400px;">Không khí nặng nề
+            trong gia đình thiếu hạnh phúc cũng là nguyên nhân chính dẫn đến chứng trầm cảm cho con cái.
+        </p>
+        <br>
+        <p style="text-align: justify; word-spacing: 5px; margin-left: 300px; margin-right: 400px;">Ngoài ra, tốc độ
+            phát triển nhanh đến chóng mặt của cuộc sống hiện đại khiến áp lực công việc gia tăng, bộ não làm việc quá
+            tải, cảm giác cô độc, quá lệ thuộc vào mạng xã hội,
+            tỷ lệ người bị stress ở Việt Nam tăng lên nhanh chóng cũng là những nguyên nhân khiến trầm cảm ngày càng phổ
+            biến hiện nay.</p>
+        <br>
+        <h3 style="text-align: center; font-weight: 400;">
+            Bạn có thể tâm sự ở dưới đây.
+        </h3>
+    </div>
+    <div class="box1">
+        <div id="send1" class="card1">
+            <h2>Nơi đây để chữa lành tâm hồn cậu<ion-icon name="heart-outline"></ion-icon></h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="chatbox-outline"></ion-icon>
+                    </span>
+                    <input type="name" required>
+                    <label>Hãy ghi lời tâm sự ở đây nè</label>
+                </div>
+            </form>
+            <div class="buttonsend">
+                <a class="button2" id="sendButton" >Send <ion-icon name="send-outline"></ion-icon></a>
+            </div>
+            
+        </div>
+    <div id="sent1" class="card2">
+        <h2>Nơi đây để chữa lành tâm hồn cậu<ion-icon name="heart-outline"></ion-icon></h2>
+        <br>
+           <h3>cảm ơn cậu đã gửi lời tâm sự</h3>
+           <br><br><br><br><br>
+           <p></p>
+    </div>
+            
+    <script src="main.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
